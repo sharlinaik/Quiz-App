@@ -1,0 +1,70 @@
+/* src/components/NotesApp.css */
+.notes-app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .notes-app h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .notes-app input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .notes-app button {
+    padding: 10px;
+    background-color: #33819f;
+    color: white;
+    border: none;
+
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .notes-app button:hover {
+    background-color: #2b6c84;
+  }
+  
+  .notes-app ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notes-app li {
+    padding: 10px;
+    background-color: #e6e6e6;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notes-app li span {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .notes-app li button {
+    margin-left: 10px;
+    background-color: #33819f;
+    padding: 5px 10px;
+  }
+  
+  .notes-app li button:hover {
+    background-color: #2b6c84;
+  }
+  
